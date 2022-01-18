@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300&display=swap');
 
+@font-face {
+    font-family: Bodo Amat;
+    src: url('./fonts/bodoAmat/BodoAmat.otf'), url('./fonts/bodoAmat/BodoAmat.ttf')
+}
+
+.fontObo{
+    font-family: Bodo Amat;
+}
+
 *
 {
     margin: 0;
     padding: 0;
     font-family: 'Poppins';
 }
+
 body{
     background:#000 url(madera.jpg);
     background-size: cover;
