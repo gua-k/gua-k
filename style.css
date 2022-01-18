@@ -5,8 +5,20 @@
     src: url('./fonts/bodoAmat/BodoAmat.otf'), url('./fonts/bodoAmat/BodoAmat.ttf')
 }
 
-.fontObo{
+.familyBodo{
     font-family: Bodo Amat;
+    margin-left: 20px;
+}
+
+.sizePosition{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.logoSize {
+    width: 80px;
+    height: 80px;
 }
 
 *
