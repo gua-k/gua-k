@@ -105,16 +105,16 @@ body{
 }
 
 .countdown #day::before{
-    content: 'Days';
+    content: 'Dias';
 }
 
 .countdown #hour::before{
-    content: 'Hours';
+    content: 'Horas';
 }
 .countdown #minute::before{
-    content: 'Minutes';
+    content: 'Minutos';
 }
 .countdown #second::before{
-    content: 'Seconds';
+    content: 'Segundos';
 }
 
