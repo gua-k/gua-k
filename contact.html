@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -7,7 +7,9 @@
         <meta name="author" content="" />
         <title>Gua-k Tienda | Inicio</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/images/guak.png" />
+        <link rel="icon" type="image/x-icon" href="assets/images/guak.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -23,7 +25,7 @@
                 <button class="navbar-toggler marginRight20" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!"><b>Inicio</b></a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html"><b>Inicio</b></a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Catálogo</b></a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -36,15 +38,14 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#!"><b>Sobre nosotros</b></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!"><b>Contacto</b></a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.html"><b>Contacto</b></a></li>
                     </ul>
-                    <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
-                            Cart
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        </button>
-                    </form>
+                    <div class="social d-flex ">
+                        <a class="mx-3" href="#!"><i class="fab fa-instagram iconoMedia"></i></a>
+                        <a class="mx-3" href="#!"><i class="fab fa-tiktok iconoMedia"></i></a>
+                        <a class="mx-3" href="#!"><i class="fab fa-facebook-f iconoMedia"></i></a>
+                        <a class="mx-3" href="#!"><i class="fab fa-twitter iconoMedia"></i></a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -63,41 +64,48 @@
 
         <!-- Section-->
         <section class="py-5 titlebackground">
-            <form action="https://formsubmit.co/guaktienda@gmail.com" method="POST" class="form-signup d-flex flex-column row">
-                <div class=" form-group col-xs-8 col-sm-8">
-                    <div class="col-xs-12 col-sm-12 float-center">
-                        <input class="form-control marginBtn contactWidth" type="text" name="nombre" required placeholder="Nombre" />
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12">
-                        <input class="form-control marginBtn contactWidth" type="email" name="email" required
-                            placeholder="Email Address" />
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12">
-                        <textarea class="form-control marginBtn contactWidth" type="text" name="descripcion" rows="3"
-                            placeholder="Mensaje" required></textarea>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12">
-                        <button  class="btn btn-primary marginBtn contactWidth"
-                            type="submit">Enviar</button>
-                    </div>
-                    <input type="hidden" name="_autoresponse" value="Hemos recibido su solicitud correctamente, nos podremos en contacto con usted lo antes posible.">
-                </div>
-            </form>
+                <section class="py-5 titlebackground unMarginTop">
+                    <form action="https://formsubmit.co/guaktienda@gmail.com" method="POST" class="form-signup d-flex flex-column row">
+                        <div class=" form-group col-xs-8 col-sm-8">
+                            <div class="col-xs-12 col-sm-12 float-center">
+                                <input class="form-control marginBtn contactWidth" type="text" name="nombre" required placeholder="Nombre" />
+                            </div>
+        
+                            <div class="col-xs-12 col-sm-12">
+                                <input class="form-control marginBtn contactWidth" type="email" name="email" required
+                                    placeholder="Email Address" />
+                            </div>
+        
+                            <div class="col-xs-12 col-sm-12">
+                                <textarea class="form-control marginBtn contactWidth" type="text" name="descripcion" rows="3"
+                                    placeholder="Mensaje" required></textarea>
+                            </div>
+        
+                            <div class="col-xs-12 col-sm-12">
+                                <button  class="btn btn-primary marginBtn contactWidth"
+                                    type="submit">Enviar</button>
+                            </div>
+                            <input type="hidden" name="_autoresponse" value="Hemos recibido su solicitud correctamente, nos podremos en contacto con usted lo antes posible.">
+                        </div>
+                    </form>
+                </section>
         </section>
         <!-- Footer-->
-        <footer class="py-5 bg-dark footer">
-            <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; 
-                    <!-- <img style="fill: #FFF;" src="assets/images/GUAKSOLO.svg" > -->
-                    <span class="fontBodoFooter">
-                        <a style="color: #FFF !important;" href="http://www.gua-k.es">Gua-K</a> 
-                    </span> - 2022
-                </p>
-            </div>
-        </footer>
+        <footer class="py-6 bg-dark footer">
+            <p class="m-0 text-center text-white unmargintop">Copyright &copy; 
+                <!-- <img style="fill: #FFF;" src="assets/images/GUAKSOLO.svg" > -->
+                <span class="fontBodoFooter">
+                    <a style="color: #FFF !important;" href="http://www.gua-k.es">Gua-K</a> 
+                </span> - 2022
+                <br>
+                <span class="marginLeft20">
+                    <a class="mx-2" href="#!"><i class="fab fa-instagram aFooter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-tiktok aFooter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f aFooter"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-twitter aFooter"></i></a>
+                </span> 
+            </p>
+    </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
