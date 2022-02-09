@@ -1,0 +1,293 @@
+@font-face {
+  font-family: Bodo Amat;
+  src: url('../assets/fonts/bodoAmat/BodoAmat.otf'), url('../assets/fonts/bodoAmat/BodoAmat.ttf')
+}
+
+a{
+  text-decoration:none;
+  color: #000;
+}
+
+a .aFooter{
+  text-decoration:none;
+  color: #fff;
+}
+
+a .aFooter:hover{
+  text-decoration:none;
+  color: rgb(106, 106, 106);
+}
+
+a:hover{
+  text-decoration:none;
+  
+}
+
+a .iconoMedia{
+  width: 2em !important;
+  height: 2em !important;
+}
+
+a .iconoMedia:hover{
+  
+  /* color: rgb(57, 57, 57); */
+  color: rgb(106, 106, 106);
+}
+
+.imgbck{
+  background-image: url("../assets/images/ImagenInicio.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  /* background-position: center center; */
+}
+
+.fontBodoFooter{
+  font-family: Bodo Amat;
+}
+.fontBodoFooter a ,a:hover {
+  text-decoration:none;
+  color: #fff;
+}
+.fontBA{
+  font-family: Bodo Amat;
+}
+
+.fontBodo{
+  font-family: Bodo Amat;
+  margin-top: 20px;
+  font-size: 2em;
+}
+
+.fontBodo a ,a:hover {
+  text-decoration:none;
+  color: #000;
+
+}
+
+.drop{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.1),
+    15px 25px 10px rgba(0, 0, 0, 0.05),
+    15px 20px 120px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+  }
+
+  .marginLeft20{
+    margin-left: 20px;
+  }
+
+  .marginLeft120{
+    margin-left:120px;
+  }
+
+  .marginRight20{
+    margin-right: 20px;
+  }
+
+  .marginTop30{
+    margin-top: 30px;
+  }
+
+  
+   @media (max-width: 767px) {
+    .containerCard .cardCard{
+      position: relative !important;
+      width: 170px!important;
+      height: 250px!important;
+      background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
+      #3f829d  30%, #6d9a52, #AFD000) !important;
+      margin: 15px !important;
+      border-radius: 20px !important;
+      overflow: hidden!important;
+      border: 5px solid #000!important;
+      font-size: 0.75em!important;
+    }
+
+    .marginLeft120{
+      margin-left:100px;
+    }
+
+    .containerCard .cardCard:hover .imgBxCard {
+      transform:translateY(10px) scale(0.30) !important ;
+    }
+  }
+
+  @media (max-width: 484px) {
+    .containerCard .cardCard{
+      position: relative !important;
+      width: 120px!important;
+      height: 190px!important;
+      background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
+      #3f829d  30%, #6d9a52, #AFD000) !important;
+      margin: 15px !important;
+      border-radius: 20px !important;
+      overflow: hidden!important;
+      border: 5px solid #000!important;
+      font-size: 0.6em!important;
+    }
+
+    .marginLeft120{
+      margin-left:50px;
+    }
+
+    .containerCard .cardCard:hover .imgBxCard {
+      transform:translateY(10px) scale(0.20) !important;
+    }
+  }
+/*
+  @media (max-width: 1199px) {
+    .marginLeft20{
+      margin-left: -200px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .marginLeft20 {
+      margin-left: -120px;
+    }
+  } */
+
+  @media (max-width: 576px) {
+    .marginLeft20 {
+      margin-left: -80px;
+    }
+
+    .marginTop30{
+      margin-top: 0px;
+    }
+
+    .imgbck{
+      background-image: url("../assets/images/inicioMovil2.png");
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position: center;
+      /* background-position: center center; */
+    }
+  }
+
+  .drop::before{
+      content: ' ';
+      position: absolute;
+      top:22px;
+      left: 12px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: rgb(255, 255, 255);
+  }
+
+  .drop::after{
+    content: ' ';
+    position: absolute;
+    top:12px;
+    left: 26px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+}
+
+.drop img{
+  width: 75%;
+  height: 75%;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Bodo Amat; */
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+  /* font-family: Bodo Amat */
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+.containerCard{
+  position: relative;
+  /* width: 1280px; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+
+.containerCard .cardCard{
+  position: relative;
+  width: 220px;
+  height: 330px;
+  background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
+  #3f829d  30%, #6d9a52, #AFD000);
+  margin: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 5px solid #000;
+}
+
+.containerCard .cardCard .imgBxCard{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition : 0.4s;
+  z-index: 100000;
+  border-radius: 20px;
+  overflow: hidden;
+  transform-origin: top;
+}
+
+.containerCard .cardCard:hover .imgBxCard {
+  transform:translateY(10px) scale(0.35) ;
+}
+
+.containerCard .cardCard .imgBxCard img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerCard .cardCard .contentCard{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  margin-left: 10px;
+  color: #000;
+  padding-right: 10px;
+}
+  
