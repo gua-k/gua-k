@@ -308,7 +308,12 @@ footer {
   width:90% !important;
 }
 
-.unmargintop{
+.unMarginTop{
   margin-top: -40px;
 }
+
+.unMarginTopFooter{
+  margin-top: -20px;
+}
+
 
