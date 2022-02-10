@@ -108,7 +108,7 @@ a .iconoMedia:hover{
       border-radius: 20px !important;
       overflow: hidden!important;
       border: 5px solid #000!important;
-      font-size: 0.75em!important;
+      font-size: 1em !important;
     }
 
     .marginLeft120{
@@ -123,19 +123,19 @@ a .iconoMedia:hover{
   @media (max-width: 484px) {
     .containerCard .cardCard{
       position: relative !important;
-      width: 120px!important;
-      height: 190px!important;
+      width: 150px!important;
+      height: 230px!important;
       background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
       #3f829d  30%, #6d9a52, #AFD000) !important;
-      margin: 15px !important;
+      margin: 8px !important;
       border-radius: 20px !important;
       overflow: hidden!important;
       border: 5px solid #000!important;
-      font-size: 0.6em!important;
+      font-size: 0.75em!important;
     }
 
     .marginLeft120{
-      margin-left:50px;
+      margin-left:75px;
     }
 
     .containerCard .cardCard:hover .imgBxCard {
@@ -235,7 +235,8 @@ footer {
   justify-content: left;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 10%;
+  margin-left: 3%;
+  margin-bottom: 20px;
 }
 
 .containerCard .cardCard{
@@ -244,10 +245,11 @@ footer {
   height: 330px;
   background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
   #3f829d  30%, #6d9a52, #AFD000);
-  margin: 15px;
+  margin: 5px;
   border-radius: 20px;
   overflow: hidden;
   border: 5px solid #000;
+  font-size: 1.2em;
 }
 
 .containerCard .cardCard .imgBxCard{
@@ -258,7 +260,7 @@ footer {
   height: 100%;
   transition : 0.4s;
   z-index: 100000;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
   transform-origin: top;
 }
