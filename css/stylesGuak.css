@@ -35,7 +35,7 @@ a .iconoMedia:hover{
 }
 
 .imgbck{
-  background-image: url("../assets/images/ImagenInicio.jpg");
+  background-image: url("../assets/images/inicioImagen/ImagenInicio.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   /* background-position: center center; */
@@ -50,6 +50,20 @@ a .iconoMedia:hover{
 }
 .fontBA{
   font-family: Bodo Amat;
+}
+
+.fontBAWhite{
+  font-family: Bodo Amat;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+  font-size: 2em;
+}
+
+.fontBABlack{
+  font-family: Bodo Amat;
+  color: black;
+  text-shadow: 0.1em 0.1em 0.05em #fff;
+  font-size: 2em;
 }
 
 .fontBodo{
@@ -107,7 +121,7 @@ a .iconoMedia:hover{
       margin: 15px !important;
       border-radius: 20px !important;
       overflow: hidden!important;
-      border: 5px solid #000!important;
+      border: 3px solid #000!important;
       font-size: 0.8em !important;
     }
 
@@ -130,7 +144,7 @@ a .iconoMedia:hover{
       margin: 8px !important;
       border-radius: 20px !important;
       overflow: hidden!important;
-      border: 5px solid #000!important;
+      border: 3px solid #000!important;
       font-size: 0.75em!important;
     }
 
@@ -154,10 +168,32 @@ a .iconoMedia:hover{
       margin-left: -120px;
     }
   } */
+  @media (max-width: 420px) {
+    .containerCard {
+      margin-left: 6% !important;
+      margin-right: 0% !important;
+    }
+  }
+
+  @media (max-width: 389px ){
+    .containerCard {
+      margin-left: 2% !important;
+      margin-right: 0% !important;
+    }
+  }
+
+  @media (max-width: 374px ){
+    .containerCard {
+      margin-left: 1% !important;
+      margin-right: 0% !important;
+    }
+  }
+
+  
 
   @media (max-width: 576px) {
     .marginLeft20 {
-      margin-left: -80px;
+      margin-left: -70px;
     }
 
     .marginTop30{
@@ -165,13 +201,15 @@ a .iconoMedia:hover{
     }
 
     .imgbck{
-      background-image: url("../assets/images/inicioMovil2.png");
+      background-image: url("../assets/images/inicioImagen/inicioMovil.png");
       background-repeat: no-repeat;
       background-size:cover;
       background-position: center;
       /* background-position: center center; */
     }
   }
+
+  
 
   .drop::before{
       content: ' ';
@@ -228,14 +266,88 @@ footer {
   color: white;
 }
 
+.containerbutton{
+  position: relative;
+  /* width: 1280px; */
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.marginBottomButtonDiv {
+  margin-bottom: 30px;
+}
+
+.buttonStyle {
+  border: 3px solid #000!important;
+  border-radius: 30px;
+  margin: 5%;
+  width: 100%;
+  height: 300px;
+}
+@media (max-width: 768px) {
+  .buttonStyle {
+    border: 3px solid #000!important;
+    border-radius: 30px;
+    margin: 0%;
+    width: 100%;
+    height: 150px;
+  }
+
+  .fontBAWhite{
+    font-size: 1.5em;
+  }
+
+  .fontBABlack{
+    font-size: 1.5em;
+  }
+}
+
+.imgNinos{
+  background-image: url("../assets/images/botones/niños.jpg");
+}
+
+.imgAdornos{
+  background-image: url("../assets/images/botones/adornos.jpg");
+}
+
+.imgPuzzle{
+  background-image: url("../assets/images/botones/puzzle.jpg");
+}
+
+.imgLlavero{
+  background-image: url("../assets/images/botones/llavero.jpg");
+}
+
+.imgButton p{
+  position: relative;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.imgButton{
+  
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.imgButton:hover{
+  filter: brightness(80%); 
+}
+
 .containerCard{
   position: relative;
   /* width: 1280px; */
   display: flex;
-  justify-content: left;
+  justify-content: left !important;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 3%;
+  margin-left:8%;
+  margin-right:0%;
   margin-bottom: 20px;
 }
 
@@ -248,7 +360,7 @@ footer {
   margin: 5px;
   border-radius: 20px;
   overflow: hidden;
-  border: 5px solid #000;
+  border: 3px solid #000;
   font-size: 1.2em;
 }
 
@@ -260,7 +372,7 @@ footer {
   height: 100%;
   transition : 0.4s;
   z-index: 100000;
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   transform-origin: top;
 }
