@@ -120,8 +120,8 @@ a .iconoMedia:hover{
       position: relative !important;
       width: 170px!important;
       height: 250px!important;
-      background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
-      #3f829d  30%, #6d9a52, #AFD000) !important;
+      background: linear-gradient(#FCFF9F 28%,#000 5%,
+      #36AFF0  29%, #B6FFA7 70%) !important;
       margin: 15px !important;
       border-radius: 20px !important;
       overflow: hidden!important;
@@ -134,7 +134,7 @@ a .iconoMedia:hover{
     }
 
     .containerCard .cardCard:hover .imgBxCard {
-      transform:translateY(10px) scale(0.30) !important ;
+      transform:translateY(10px) scale(0.27) !important ;
     }
   }
 
@@ -143,8 +143,8 @@ a .iconoMedia:hover{
       position: relative !important;
       width: 150px!important;
       height: 230px!important;
-      background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
-      #3f829d  30%, #6d9a52, #AFD000) !important;
+      background: linear-gradient(#FCFF9F 28%,#000 5%,
+      #36AFF0  29%, #B6FFA7 70%) !important;
       margin: 8px !important;
       border-radius: 20px !important;
       overflow: hidden!important;
@@ -157,7 +157,7 @@ a .iconoMedia:hover{
     }
 
     .containerCard .cardCard:hover .imgBxCard {
-      transform:translateY(10px) scale(0.20) !important;
+      transform:translateY(10px) scale(0.24) !important;
     }
   }
 /*
@@ -313,6 +313,10 @@ footer {
   background-image: url("../assets/images/botones/niños.jpg");
 }
 
+.imgNovedades{
+  background-image: url("../assets/images/botones/novedades.jpg");
+}
+
 .imgAdornos{
   background-image: url("../assets/images/botones/adornos.jpg");
 }
@@ -359,13 +363,13 @@ footer {
   position: relative;
   width: 220px;
   height: 330px;
-  background: linear-gradient(#d0d384 , #F0F142 28%,#000 2%,
-  #3f829d  30%, #6d9a52, #AFD000);
+  background: linear-gradient(#FCFF9F 28%,#000 5%,
+      #36AFF0  29%, #B6FFA7 70%);
   margin: 5px;
   border-radius: 20px;
   overflow: hidden;
   border: 3px solid #000;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .containerCard .cardCard .imgBxCard{
@@ -376,7 +380,7 @@ footer {
   height: 100%;
   transition : 0.4s;
   z-index: 100000;
-  border-radius: 20px;
+  border-radius: 15px;
   overflow: hidden;
   transform-origin: top;
 }
@@ -391,7 +395,6 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .containerCard .cardCard .contentCard{
