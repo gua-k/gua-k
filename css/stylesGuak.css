@@ -94,6 +94,19 @@ a .iconoMedia:hover{
 
   }
 
+  .aliniconContact{
+    align-content:center;
+    justify-content:center;
+  }
+
+  .contactoText{
+    border: 1px solid #000;
+    background: rgb(247, 247, 247);
+  /* IMPORTANTE */
+  text-align: center;
+  border-radius: 15px;
+  }
+
   .marginLeft20{
     margin-left: 20px;
   }
@@ -313,6 +326,12 @@ footer {
   background-image: url("../assets/images/botones/niños.jpg");
 }
 
+@media (min-width: 768px) {
+.marginleftless{
+  margin-left: 5px;
+}
+}
+
 .imgNovedades{
   background-image: url("../assets/images/botones/novedades.jpg");
 }
@@ -327,6 +346,14 @@ footer {
 
 .imgLlavero{
   background-image: url("../assets/images/botones/llavero.jpg");
+}
+
+.imgDecoracion{
+  background-image: url("../assets/images/botones/decoracion.jpg");
+}
+
+.imgNyP{
+  background-image: url("../assets/images/botones/nombresypalabras.jpg");
 }
 
 .imgButton p{
@@ -414,20 +441,26 @@ footer {
 
 .marginBtn{
   margin-top: 10px;
-  margin-left: 33%;
 }
   
 @media (max-width: 575px) {
   .marginBtn{
     margin-top: 10px;
     margin-left: 5%;
-    margin-right: 5%;
+
   }
 }
+.contactWidth{
+  width:100% !important;
+}
+@media (max-width: 575px) {
 
 .contactWidth{
   width:90% !important;
 }
+}
+
+
 
 .buttonStyleContact{
   color: white;
